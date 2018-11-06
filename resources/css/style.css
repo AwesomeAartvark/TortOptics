@@ -1,0 +1,87 @@
+/* Include padding and border in the element's total width and height: */
+
+/* "Tamming" Box Model With Reset */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Universal Styling */
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+  background-color: white;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+
+/* Header */
+
+header {
+  font-size: 1rem;
+  color: white;
+  padding: 1rem 2rem;
+  background-color: cadetblue;
+  position: relative;
+  top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+header ul {
+  display: flex;
+}
+
+header ul li {
+  margin-left: 2rem;
+}
+
+/* Banner */
+
+.banner {
+  height: 31rem;
+  background-image: url("../images/banner_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner h1 {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 11rem;
+  right: -2rem;
+  padding: 1.5rem 2rem;
+  margin: 0 auto;
+  background-color: white;
+}
