@@ -13,8 +13,11 @@ html {
 html {
   font-size: 18px;
   font-family: Helvetica;
-  line-height: 1.4;
   background-color: white;
+}
+
+body {
+  line-height: 1.4;
 }
 
 .container {
@@ -27,17 +30,24 @@ a {
   text-decoration: none;
 }
 
+h1, h2 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
 h1 {
   font-size: 2rem;
-  font-weight: bold;
   line-height: 1.2;
+}
+
+h2, header {
+  font-size: 1rem;
 }
 
 
 /* Header */
 
 header {
-  font-size: 1rem;
   color: white;
   padding: 1rem 2rem;
   background-color: cadetblue;
@@ -81,7 +91,7 @@ header ul li {
   position: relative;
   top: 11rem;
   right: -2rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 5rem;
   margin: 0 auto;
   background-color: white;
 }
@@ -113,4 +123,24 @@ header ul li {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+}
+
+/* Contact */
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.contact h2 {
+  color: white;
+  width: 12.5rem;
+  padding: 0.5rem 1.25rem;
+  margin-bottom: 1rem;
+  background-color: cadetblue;
+}
+
+.philosophy, .appointments {
+  width: 38%;
+  margin-right: 5%;
 }
