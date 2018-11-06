@@ -130,6 +130,7 @@ header ul li {
 .contact {
   display: flex;
   justify-content: center;
+  margin-bottom: 5rem;
 }
 
 .contact h2 {
@@ -143,4 +144,19 @@ header ul li {
 .philosophy, .appointments {
   width: 38%;
   margin-right: 5%;
+}
+
+/* Footer */
+
+footer {
+  background-color: azure;
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 4rem;
+  margin-right: 1rem;
 }
