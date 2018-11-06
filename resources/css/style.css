@@ -76,6 +76,10 @@ header ul li {
   margin-left: 2rem;
 }
 
+.sml-nav {
+  display: none;
+}
+
 /* Banner */
 
 .banner {
@@ -160,3 +164,116 @@ footer img {
   margin-left: 4rem;
   margin-right: 1rem;
 }
+
+
+/* Media Queries */
+
+@media only screen and (max-width:1024px) {
+  /* Universal Styles */
+  .container {
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 1.33rem;
+  }
+  /* Header */
+  header {
+    top: 0;
+  }
+  /* Banner */
+  .banner {
+    height: 22rem;
+    background-position: 40% 0%;
+  }
+  .banner h1 {
+    top: 5rem;
+    right: 2rem;
+    padding: 1.5rem 3rem;
+  }
+  /* Contact */
+  .contact {
+    justify-content: space-around;
+    margin-left: 8%;
+  }
+  .philosophy, .appointments {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 665px) {
+  /* Universal Styles */
+  .container {
+    max-width: 100%;
+    margin: 0;
+  }
+  .content {
+    font-size: 0.77rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+  /* Header */
+  header {
+    top: 0;
+  }
+  .logo span, .menu {
+    display: none;
+  }
+  .sml-nav {
+    display: unset;
+  }
+  /* Banner */
+  .banner {
+    height: 17rem;
+    background-position: 20% 0%;
+  }
+  .banner h1 {
+    text-align: center;
+    display: block;
+    float: none;
+    top: 9rem;
+    right: 0;
+    padding: 0.8rem 0;
+  }
+  /* Services */
+  .services {
+    margin: 3.77rem;
+    flex-direction: column;
+  }
+  .services img {
+    margin-bottom: 1rem;
+  }
+  .exams, .fittings, .delivery{
+    height: auto;
+    margin: 0;
+  }
+  .fittings {
+    margin: 1.54rem 0;
+  }
+  /* Contact */
+  .contact {
+    flex-direction: column;
+  }
+  .contact h2 {
+    width: inherit;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .contact p {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .philosophy, .appointments {
+    width: inherit;
+    margin-bottom: 4rem;
+  }
+  /* Footer */
+  footer {
+    justify-content: center;
+  }
+  footer span {
+    display: none;
+  }
+  footer img {
+    margin: 0;
+  }
