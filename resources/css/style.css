@@ -85,3 +85,32 @@ header ul li {
   margin: 0 auto;
   background-color: white;
 }
+
+/* Services */
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services img {
+  width: 5rem;
+}
+
+.services .exams img {
+  width: 3.5rem;
+}
+
+.exams,
+.fittings,
+.delivery {
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
